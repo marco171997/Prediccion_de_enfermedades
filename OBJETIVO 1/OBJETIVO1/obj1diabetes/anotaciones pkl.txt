@@ -1,0 +1,19 @@
+# Guardar el modelo en un archivo .pkl
+with open('modelo_arbol.pkl', 'wb') as archivo:
+    pickle.dump(arbol, archivo)
+
+
+#prediciendo
+dato1=[80,0]
+prediction = arbol.predict([dato1])
+print (prediction)
+
+#prediciendo
+dato1=[80,1]
+prediction = arbol.predict([dato1])
+print (prediction)
+
+#prediciendo
+dato1=[199,0]
+prediction = arbol.predict([dato1])
+print (prediction)

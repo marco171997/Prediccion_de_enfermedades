@@ -1,0 +1,16 @@
+ <div class="row">
+       
+        <div class="col">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Introducir índice de glucemia</span>
+                <input type="number" class="form-control" id="glucemia" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">¿Presencia de anticuerpos beta del páncreas?</span>
+                <input type="text" class="form-control" type="text" id="betaPancreas" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <button  id="btnConsultar"  class="btn btn-primary">Predecir</button>
+        </div>
+    </div>
+    
+    
